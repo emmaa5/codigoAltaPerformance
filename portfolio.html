@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/7b89542274.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="keyword" content="Portfolio, Web design, Web development, Coding, Junior developer">
+  <meta name="description" content="A Junior developer's portfolio page">
+  <meta name="author" content="Aaaaa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <button id="menu-button" onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></button>
+    <nav id="navbar">
+      <button id="exit-button" onclick="closeNav()"><i class="fa-solid fa-xmark fa-xl"></i></button>
+      
+      <a  class="navbar" href="#about-me">About me</a>
+      <a  class="navbar" target="_blank" href="portfolio.html">Portfolio</a>
+        <a  class="navbar" target="_blank" href="contacts.html">Links and profiles</a>
+        </nav>
+  <header>
+    <h1 id="name">Emma Santos</h1>
+    <ul>
+      <li><a href="mailto:">emma.pju@zohomail.eu</a></li>
+    </ul>
+    <p id="description">asdlfasjs;dfçlaskdjf</p>
+  </header>
+  <main>
+    <article id= "tec-documentation"class="project-tile">
+      <h1>Technical Documentation page</h1>
+      <p class="project-description">Esse projeto foi parte do currículo do freecodecamp. Usei como conteúdo minhas anotações em markdown e mathjax para as fórmulas matemáticas</p>
+      <div class=div-links>
+      <a class="project-links" href="https://e2maa.github.io/enemNotes/">View page</a>
+      <a class="project-links" href="https://github.com/emmaa5/enemNotes">GitHub repository</a>
+      </div>
+      <img class="page-preview" src="images/TechnicalDoc.jpg" alt="Technical Documentation page preview">
+    </article>
+
+    <article id="project-landing" class="project-tile">
+      <h1>Project Landing</h1>
+      <p class="project-description">Também parte do currículo freecodecamp.A empresa IoTarc não de fato existe, foi aleatóriamente gerada.</p>
+      <div class=div-links>
+      <a class="project-links" href="https://e2maa.github.io/productLanding/">View page</a>
+      <a class="project-links" href="https://github.com/emmaa5/productLanding">GitHub repository</a>
+      </div>
+      <img class="page-preview" src="/images/ProductLanding.jpg" alt="Project Landing page preview">           
+    </article>
+
+    <article id="cassia-eller" class="project-tile">
+      <h1>Cássia Eller Tribute Page</h1>
+      <p class="project-description" style="grid-column: 1/1;">No currículo da freecodecamp foi requisitado uma página em tributo a alguém e escolhi Cássia Eller, uma cantora brasileira muito importante para a música brasileira</p>
+      <div class=div-links>
+      <a class="project-links"href="https://e2maa.github.io/tributePage/">View page</a>
+      <a class="project-links" href="https://github.com/emmaa5/tributePage">GitHub repository</a>
+      
+      </div>
+      <img class="page-preview" src="/images/TributePage.jpg" alt="Cássia Eller Tribute Page preview">
+    </article>
+                  
+    
+  </main>
+  
+</body>
+<script src="js/js.js"></script>

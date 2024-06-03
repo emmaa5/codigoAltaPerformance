@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/7b89542274.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="Portfolio, Web design, Web development, Coding, Junior developer">
+    <meta name="description" content="A Junior developer's portfolio page">
+    <meta name="author" content="Aaaaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <main>
+        <button id="menu-button" onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></button>
+        <nav id="navbar">
+          <button id="exit-button" onclick="closeNav()"><i class="fa-solid fa-xmark fa-xl"></i></button>
+          
+          <a  class="navbar" href="#about-me">About me</a>
+          <a  class="navbar" target="_blank" href="portfolio.html">Portfolio</a>
+            <a  class="navbar" target="_blank" href="contacts.html">Links and profiles</a>
+            </nav>
+    <div id="contacts-links">
+        <a class="contacts-links"target="_blank" href="https://github.com/emmaa5" id="profile-link">GitHub</a>
+        
+        <a class="contacts-links" target="_blank" href="https://codepen.io/e2ma" id="codePen">Codepen</a>
+       </div>
+       <form action="">
+        <label for="name">Seu nome:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Seu e-mail:</label>
+        <input type="email" name="email" id="email">
+        <label for="sugest">Diga o que achou do site!</label>
+        <input type="text" name="sugest" id="sugest">
+        <input type="submit" value="Submit">
+       </form>
+    </main>
+    
+</body>
+<script src="js/js.js"></script>
